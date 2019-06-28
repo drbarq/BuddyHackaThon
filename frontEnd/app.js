@@ -1,11 +1,26 @@
 console.log("Hello")
 
 
-window.addEventListener('load', function(){
+loadMap()
 
-    loadMap()
+
+window.addEventListener('load', function(){
+    initMap()
+
 
 })
+
+
+
+function startMap () {
+    fetch(loadMap())
+    
+        .then(initMap())
+
+
+}
+
+
 
 
 function loadMap() {
