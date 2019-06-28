@@ -38,7 +38,7 @@
   
   .header {
     width: 900px;
-    height: 300px;
+    height: 250px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -90,19 +90,22 @@
   }
   
   .footer-item {
-    border: 1px solid #fff;
+    /* border: 1px solid #fff; */
     background-color: #D6E9FE;
-    height: 200px;
+    height: 100px;
     flex: 1;
+    align-items: center;
   }
   
-  .footer-two {
+  .footer-two > p {
     flex:  2;
+    text-align: center;
+    align-self: center;
   }
   
   .footer-one,
   .footer-three {
-    background-color: #5995DA;
+    background-color: #D6E9FE;
     flex: inital;
     width: 300px;
   }
@@ -115,3 +118,15 @@
     height: 400px;  /* The height is 400 pixels */
     width: 100%;  /* The width is the width of the web page */
    }
+
+  .mapContainer {
+    height: 400px;
+    margin: 0;
+    padding: 0;
+  }
+
+  #map, #pano {
+    float: left;
+    height: 100%;
+    width: 50%;
+  } 
